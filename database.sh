@@ -1,0 +1,3 @@
+#cat database.sql | kubectl exec -i [pod-name] -- psql -U [postgres-user] -d [database-name]
+#curl https://gist.githubusercontent.com/jamster/7cd070880698efdd7828/raw | kubectl exec -i $(kubectl get pods | grep postgres | awk '{ print $1 }') -- /bin/bash export PGPASSWORD=postgres0; psql -U postgres -d shortbread_db
+curl https://gist.githubusercontent.com/jamster/7cd070880698efdd7828/raw | kubectl run postgres-postgresql-client --rm -i --restart='Never' --namespace default --image docker.io/bitnami/postgresql:11.8.0-debian-10-r14 --env="PGPASSWORD=$POSTGRES_PASSWORD" --command -- psql --host postgres-postgresql -U postgres -d shortbread_db -p 5432
