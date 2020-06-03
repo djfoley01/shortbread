@@ -1,0 +1,30 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: backupdb-cronjob
+spec:
+  schedule: "0 0 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: postgres-client
+            image: djfoley01/postgres-backup:latest
+            env:
+              - name: DB_HOST
+                value: "pg-postgresql"
+              - name: DB_USER
+                value: postgres
+              - name: DB_PASS
+                value: "postgres0"
+              - name: DB
+                value: "shortbread_db"
+              - name: AWS_ACCESS_KEY_ID
+                value: AKIATLGC4OCR7NO
+              - name: AWS_SECRET_ACCESS_KEY
+                value: itVsKIoxQ7dSl9OZaio/a2gkiBXog6sr
+              - name: S3_BUCKET
+                value: shortbread-demo
+            command: ["/backup.sh"]
+          restartPolicy: OnFailure

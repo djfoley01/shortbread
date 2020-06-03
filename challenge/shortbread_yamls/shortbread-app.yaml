@@ -1,0 +1,138 @@
+apiVersion: v1
+data:
+  sb-server-cert: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZiRENDQkZTZ0F3SUJBZ0lTQS83TTl2ZVpzR3dIUXRpKzhsQWlSYStiTUEwR0NTcUdTSWIzRFFFQkN3VUEKTUVveEN6QUpCZ05WQkFZVEFsVlRNUll3RkFZRFZRUUtFdzFNWlhRbmN5QkZibU55ZVhCME1TTXdJUVlEVlFRRApFeHBNWlhRbmN5QkZibU55ZVhCMElFRjFkR2h2Y21sMGVTQllNekFlRncweU1EQTJNRE13TXpFeU1UWmFGdzB5Ck1EQTVNREV3TXpFeU1UWmFNQ1V4SXpBaEJnTlZCQU1UR25Ob2IzSjBZbkpsWVdRdVlYQndjeTVtYjJ4bGVTNXMKYVdabE1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBUThBTUlJQkNnS0NBUUVBcjA2d3JVUW1lLytTZXJoRwo0bUhSUlJGc0pJVXBPcFJMV041dzBlaWdRaUdITTh5TUIrQ0RUc1hQWklETnY3VFYycDdHdGdna3Nad2ZwbzUwCkxWQmJLcXpXdkR0cjJEY2U2R1pnanlZcW1nYUo4bENqN0N3RTcyQ1VodTRia1R5RlcyUUFIR2srdVcwOGRlaVoKUXMza0xZTVI2ayttKzQyc2YzQVBXNU41Umc4TGZlRDdFSTlCSXR0UWVWaVYvNzRzbWVNQmVHSG9pNndYZkRjLwpuQXhqQTV1WFRUV1BXbjgzWkIvNWtVNVd4and0N2x2MGp3cm5rRVg0STlOajdhbU41NTNVb2YwemQ3cHJoMHp2ClR6dHNQMU8vM2xBdERlZ291cjFhcTBSaWFvZCtiVGhNK0t3VG83MEQrNkdHTmZHVWUzazl2dEQ2cnZ2WVJlOHIKaWQ4WVRRSURBUUFCbzRJQ2J6Q0NBbXN3RGdZRFZSMFBBUUgvQkFRREFnV2dNQjBHQTFVZEpRUVdNQlFHQ0NzRwpBUVVGQndNQkJnZ3JCZ0VGQlFjREFqQU1CZ05WSFJNQkFmOEVBakFBTUIwR0ExVWREZ1FXQkJSR3NyRWNPUUpsCmE1KzdORTVuSU9XOGw3ZTd6ekFmQmdOVkhTTUVHREFXZ0JTb1NtcGpCSDNkdXViUk9iZW1SV1h2ODZqc29UQnYKQmdnckJnRUZCUWNCQVFSak1HRXdMZ1lJS3dZQkJRVUhNQUdHSW1oMGRIQTZMeTl2WTNOd0xtbHVkQzE0TXk1cwpaWFJ6Wlc1amNubHdkQzV2Y21jd0x3WUlLd1lCQlFVSE1BS0dJMmgwZEhBNkx5OWpaWEowTG1sdWRDMTRNeTVzClpYUnpaVzVqY25sd2RDNXZjbWN2TUNVR0ExVWRFUVFlTUJ5Q0duTm9iM0owWW5KbFlXUXVZWEJ3Y3k1bWIyeGwKZVM1c2FXWmxNRXdHQTFVZElBUkZNRU13Q0FZR1o0RU1BUUlCTURjR0N5c0dBUVFCZ3Q4VEFRRUJNQ2d3SmdZSQpLd1lCQlFVSEFnRVdHbWgwZEhBNkx5OWpjSE11YkdWMGMyVnVZM0o1Y0hRdWIzSm5NSUlCQkFZS0t3WUJCQUhXCmVRSUVBZ1NCOVFTQjhnRHdBSFlBNXhMeXNEZCtHbUw3anNrTVlZVHg2bnMzeTFZZEVTWmI4K0R6Uy9KQlZHNEEKQUFGeWVHRTIyUUFBQkFNQVJ6QkZBaUVBbnBOZW1rVXFmbGxuNjBTQjhsTmY4NFV0UTJzeW1jbmFnaVBwSmRrSQoxaDRDSUNJTFExdE5hOFFLdDNjakZzcHFDcHcyNm1CRjBnOGVnMFZGTHRCdHVMaGVBSFlBc2g0RnpJdWl6WW9nClRvZG0rU3U1aWlVZ1oydmErbkRuc2tsVExlK0xrRjRBQUFGeWVHRTJ5Z0FBQkFNQVJ6QkZBaUVBcU91RThud24KNHRyU3R2R0p6U2s4UWtqcVFMb0V0ZGJKbEVsRWNPbjl5bUFDSUZKZHdreWRPWVVqZHpCM3h4Q0hFWXE0YlAvQQovQXVGYldHNStiTGswRldjTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFCZE8yZ3JJbmxNbnRPQVBWKzRSNTJRCkQzNVIweEhSWHBQcEJyQUN6ZWRXVzB5cGd2QitvVk1YT05zdnlrcVRMNmZCVWRUK0V1R0tNMmdlZXJndmgreDQKaVI2YUkvOER4N3phcm5RUDFvSEtPMzJyN3A0WEloS0g3S3lXa2dCek16WUsvYlViek1yMkNnZmc5enNhQjhoeAptZDdja2pNK1FRdnI4RGpZL0NCdmlYUzRITkcwM2ZmRlF1cGh3bzkyci9XZElBekl1ckl5QU5RRTFta1VpWUFhCm8zOG92MlhQVDg3Zk5WdnQyK0xjdUxIWFlkWkZzZ3lSaFBDcGFsamh1KzJIL0E5T1N0Mk1VN0tDVHVmYWE3dWoKTWV1S3JLZDFFKy90dEE4dlRPVjZnb3FqcE5YK09rN1QremN1MXYzd09sWEI2Z0g4ZnZ1NmtiQStiOFdsakMxWQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCi0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLQpNSUlFa2pDQ0EzcWdBd0lCQWdJUUNnRkJRZ0FBQVZPRmMyb0xoZXluQ0RBTkJna3Foa2lHOXcwQkFRc0ZBREEvCk1TUXdJZ1lEVlFRS0V4dEVhV2RwZEdGc0lGTnBaMjVoZEhWeVpTQlVjblZ6ZENCRGJ5NHhGekFWQmdOVkJBTVQKRGtSVFZDQlNiMjkwSUVOQklGZ3pNQjRYRFRFMk1ETXhOekUyTkRBME5sb1hEVEl4TURNeE56RTJOREEwTmxvdwpTakVMTUFrR0ExVUVCaE1DVlZNeEZqQVVCZ05WQkFvVERVeGxkQ2R6SUVWdVkzSjVjSFF4SXpBaEJnTlZCQU1UCkdreGxkQ2R6SUVWdVkzSjVjSFFnUVhWMGFHOXlhWFI1SUZnek1JSUJJakFOQmdrcWhraUc5dzBCQVFFRkFBT0MKQVE4QU1JSUJDZ0tDQVFFQW5OTU04RnJsTGtlM2NsMDNnN05vWXpEcTF6VW1HU1hodmI0MThYQ1NMN2U0UzBFRgpxNm1lTlFoWTdMRXF4R2lIQzZQamRlVG04NmRpY2JwNWdXQWYxNUdhbi9QUWVHZHh5R2tPbFpIUC91YVo2V0E4ClNNeCt5azEzRWlTZFJ4dGE2N25zSGpjQUhKeXNlNmNGNnM1SzY3MUI1VGFZdWN2OWJUeVdhTjhqS2tLUURJWjAKWjhoL3BacTRVbUVVRXo5bDZZS0h5OXY2RGxiMmhvbnpoVCtYaHErdzNCcnZhdzJWRm4zRUs2QmxzcGtFTm5XQQphNnhLOHh1UVNYZ3ZvcFpQS2lBbEtRVEdkTURRTWMyUE1UaVZGcnFvTTdoRDhiRWZ3ekIvb25reEV6MHROdmpqCi9QSXphcms1TWNXdnhJME5IV1FXTTZyNmhDbTIxQXZBMkgzRGt3SURBUUFCbzRJQmZUQ0NBWGt3RWdZRFZSMFQKQVFIL0JBZ3dCZ0VCL3dJQkFEQU9CZ05WSFE4QkFmOEVCQU1DQVlZd2Z3WUlLd1lCQlFVSEFRRUVjekJ4TURJRwpDQ3NHQVFVRkJ6QUJoaVpvZEhSd09pOHZhWE55Wnk1MGNuVnpkR2xrTG05amMzQXVhV1JsYm5SeWRYTjBMbU52CmJUQTdCZ2dyQmdFRkJRY3dBb1l2YUhSMGNEb3ZMMkZ3Y0hNdWFXUmxiblJ5ZFhOMExtTnZiUzl5YjI5MGN5OWsKYzNSeWIyOTBZMkY0TXk1d04yTXdId1lEVlIwakJCZ3dGb0FVeEtleHBIc3NjZnJiNFV1UWRmL0VGV0NGaVJBdwpWQVlEVlIwZ0JFMHdTekFJQmdabmdRd0JBZ0V3UHdZTEt3WUJCQUdDM3hNQkFRRXdNREF1QmdnckJnRUZCUWNDCkFSWWlhSFIwY0RvdkwyTndjeTV5YjI5MExYZ3hMbXhsZEhObGJtTnllWEIwTG05eVp6QThCZ05WSFI4RU5UQXoKTURHZ0w2QXRoaXRvZEhSd09pOHZZM0pzTG1sa1pXNTBjblZ6ZEM1amIyMHZSRk5VVWs5UFZFTkJXRE5EVWt3dQpZM0pzTUIwR0ExVWREZ1FXQkJTb1NtcGpCSDNkdXViUk9iZW1SV1h2ODZqc29UQU5CZ2txaGtpRzl3MEJBUXNGCkFBT0NBUUVBM1RQWEVmTmpXRGpkR0JYN0NWVytkbGE1Y0VpbGFVY25lOElrQ0pMeFdoOUtFaWszSkhSUkhHSm8KdU0yVmNHZmw5NlM4VGloUnpadm9yb2VkNnRpNldxRUJtdHp3M1dvZGF0ZytWeU9lcGg0RVlwci8xd1hLdHg4Lwp3QXBJdkpTd3RtVmk0TUZVNWFNcXJTREU2ZWE3M01qMnRjTXlvNWpNZDZqbWVXVUhLOHNvL2pvV1VvSE9VZ3d1Clg0UG8xUVl6KzNkc3prRHFNcDRma2x4QndYUnNXMTBLWHpQTVRaK3NPUEF2ZXl4aW5kbWprVzhsR3krUXNSbEcKUGZaK0c2WjZoN21qZW0wWStpV2xrWWNWNFBJV0wxaXdCaThzYUNiR1M1ak4ycDhNK1grUTdVTktFa1JPYjNONgpLT3FrcW01N1RIMkgzZURKQWtTbmg2L0RORnUwUWc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+  sb-server-key: LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRQ3ZUckN0UkNaNy81SjYKdUViaVlkRkZFV3draFNrNmxFdFkzbkRSNktCQ0lZY3p6SXdINElOT3hjOWtnTTIvdE5YYW5zYTJDQ1N4bkIrbQpqblF0VUZzcXJOYThPMnZZTng3b1ptQ1BKaXFhQm9ueVVLUHNMQVR2WUpTRzdodVJQSVZiWkFBY2FUNjViVHgxCjZKbEN6ZVF0Z3hIcVQ2YjdqYXgvY0E5YmszbEdEd3Q5NFBzUWowRWkyMUI1V0pYL3ZpeVo0d0Y0WWVpTHJCZDgKTnorY0RHTURtNWROTlk5YWZ6ZGtIL21SVGxiR1BDM3VXL1NQQ3VlUVJmZ2owMlB0cVkzbm5kU2gvVE4zdW11SApUTzlQTzJ3L1U3L2VVQzBONkNpNnZWcXJSR0pxaDM1dE9FejRyQk9qdlFQN29ZWTE4WlI3ZVQyKzBQcXUrOWhGCjd5dUozeGhOQWdNQkFBRUNnZ0VCQUpUclM3cGtRaXpqbGhNWnAxMTNxc1g1WHR4SEloYlpFb2lUclZNalFiL3IKcTJhZFEvY05DWDVKR3p4TkRucmpxeWJqNmZtSVFXTi9OSVBRVDNDTzZtTCtJQXdXamk1RjVNT1c5RCttTkZwVApZNnVzUlJQQzhRNUlCT1A2TVFEWFlKR2FDVjRaS1dkckhBa3RaY1FTRXR0MmxDbHZNSEpRajFCU2FUbHB0WU9FCnE0SUNRa2R2VDIxSWhvK1hCc2RBTWZkSkxOTWUwVHFnVS9lcVBoQy9DQ2hRSEkyQnMydFMzOVpwTjBmSnN1SjQKejZkVmszbVJFQUpqL1haQlBRT1ZQTzAvUFYvZEI5TFlCMVEzelh3cURtOGxwSzVETWFxbGZ6R21haU1jS0Q0ZgpwY1NLV3Z3T05oWTIvM1VSZTRBYXpUMHFLM0o0WGZOSE9pTGZXL3FwQlFFQ2dZRUE0dUdRSEtzZkNOb1JGNmx0CkN2eDBiNmNrZW1yUVFDTzNjQ0xLQ3VmdFo0Zk1SUy9YOHdJN091TVpWbDg4RytQb3cwQllJeFZ6emhUSkZFTDAKMytoWmt1M01QaEdDVE9nUDhReDlwNGMvVFJOQldTcWk3V2w0eGhGTFN1c3Q2dGppejRxcVRMTGhRYXFBR3ViVgo1UXBuWm9WMEN2N2k1dWNsbm52dys3K2hWYmtDZ1lFQXhjNmRKU0V3L1FsTHhJYzlnd0JRSWlhL0dPU3VsdEMzCnRFeGdIc1BPT3lEQzA5OS9oaU9ob1prQmtrNUlRZmI3cTVJM2ZhMm8zRURMVzNaWEgvbWFsUFJSZSs5T1BpYkEKR1dFc1YrbVN5ZmZhUHl5K05Tc0JZbFd4V3JjTHlKQXNIVlkyVGFTTXdEalJyL2dpVldzbThOSkVJMGNrSFlNcgpMYmFaYnNLSG9UVUNnWUVBdkFabGNXemJybkZTb3dKMWJScGx3TGFMUTZ6TDQ2djE5VWZQbTVRMEtvM2ZXeU5ZClczdG83TmVTZ3dNd0JJa3Z1TWpWZ2xYZ0FGVTNnOFF0dm5hSDdYMkh1NVMxSU5sZGhNNXVRRzJVcDJLaTBLdkcKRk8xSSt4VVFDZ20zcHg2UmNhQ2duQ25QQnFXdnZ4dTQvalZPRmlmWlVOZUY0Z2lFSThEaHFURmFHbmtDZ1lCNwpZVXFubERKb1Fsb2VOWFRxdDFGRVhBS3FWa21JREp2cFBCSmdYaVhPdjdxR1NVdlRzWG5wdi9RNCs5Y2FQaUh3CmZIMWNTT3VncGxHeHRQalhHdXVPcVc0QjdkeFI2LzI2VnVBLzNaTVBveWRnYkZvZjg3a2pTdXdhOXozRVZoa08KRzI0M3M4R1BUR0dPYnltTE9oREorWDFDdStjTStYbi9RM3drbC9YZFdRS0JnR0ErdXo2Q1pSc2lBWEliOFEzeQpuVDY3TEh2TUlpNklMMVgvQjZFVnhlNDF0RHJuY1EvMGRRNVAwU3hncTNHbTJCUW01cmZuWk1GdTlWOVpwQS9CCmswaFdaOEJvaHljNzR6Q0xSZTlvT01pOVVnbXBLdksvWTV2QUozTjRQUmJLeU84STB3eGI0UVBHc2dmMzNUUkkKci9KVWo1Zzl6ZDAycFBkbi9qa0N5M0FqCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K
+kind: Secret
+metadata:
+  name: sb-sidecar-nginx-certs
+type: Opaque
+---
+apiVersion: v1
+data:
+  nginx.conf: |
+    worker_processes  1;
+    events {
+        worker_connections  1024;
+    }
+    http {
+        include       mime.types;
+        default_type  application/octet-stream;
+        sendfile        on;
+        keepalive_timeout  65;
+        server {
+          listen       443 ssl;
+          server_name  localhost;
+          ssl_certificate      /app/cert/shortbread.pem;
+          ssl_certificate_key  /app/cert/shortbread-key.pem;
+          ssl_protocols TLSv1.2;
+          ssl_ciphers EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:!EECDH+3DES:!RSA+3DES:!MD5;
+          ssl_prefer_server_ciphers on;
+          location / {
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header Host $http_host;
+            proxy_pass http://127.0.0.1:3000/app;
+          }
+        }
+    }
+kind: ConfigMap
+metadata:
+  name: sb-sidecar-nginx-conf
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shortbread
+  labels:
+    app: shortbread
+spec:
+  type: ClusterIP
+  ports:
+  - port: 443
+    targetPort: 443
+    protocol: TCP
+    name: https
+  selector:
+    app: shortbread
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shortbread
+  labels:
+    app: shortbread
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shortbread
+  template:
+    metadata:
+      labels:
+        app: shortbread
+    spec:
+      containers:
+      - name: shortbread
+        image: djfoley01/shortbread:latest
+        imagePullPolicy: IfNotPresent
+        resources:
+          limits:
+            cpu: 40m
+          requests:
+            cpu: 1m
+        env:
+          - name: DB
+            value: "shortbread_db"
+          - name: DB_HOST
+            value: "pg-postgresql"
+          - name: DB_USER
+            value: "postgres"
+          - name: DB_PASS
+            value: "postgres0"
+      - name: tls-sidecar
+        image: nginx
+        imagePullPolicy: IfNotPresent
+        resources:
+          limits:
+            cpu: 40m
+          requests:
+            cpu: 1m
+        volumeMounts:
+          - name: secret-volume
+            mountPath: /app/cert
+          - name: config-volume
+            mountPath: /etc/nginx/nginx.conf
+            subPath: nginx.conf
+      volumes:
+      - name: secret-volume
+        secret:
+          secretName: sb-sidecar-nginx-certs
+          items:
+            - key: sb-server-cert
+              path: shortbread.pem
+            - key: sb-server-key
+              path: shortbread-key.pem
+      - name: config-volume
+        configMap:
+          name: sb-sidecar-nginx-conf
+
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/ssl-passthrough: "true"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+  name: shortbread
+spec:
+  rules:
+  - host: shortbread.apps.foley.life
+    http:
+      paths:
+      - backend:
+          serviceName: shortbread
+          servicePort: 443
+        path: /
+  tls:
+  - hosts:
+    - shortbread.apps.foley.life

@@ -1,6 +1,6 @@
 ## Helm Chart  
   
-Included is a Helm 3 chart for shortbread  
+Included is a Helm 3 chart for shortbread and a modified postgres helm chart for postgresql 9.6.5 that works with kube 1.16+
 
 - Install Helm    
 ```brew install helm```  
