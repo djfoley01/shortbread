@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "sb.fullname" . }}
+  labels:
+    {{- include "sb.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      {{- include "sb.selectorLabels" . | nindent 6 }}
+  template:
+    metadata:
+      labels:
+        {{- include "sb.selectorLabels" . | nindent 8 }}
+    spec:
+    {{- with .Values.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+    {{- end }}
+      serviceAccountName: {{ include "sb.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
+      containers:
+        - name: {{ .Chart.Name }}
+          securityContext:
+            {{- toYaml .Values.securityContext | nindent 12 }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name: DB
+              value: {{ .Values.dbname | quote }}
+            - name: DB_HOST
+              value: {{ .Values.dbhost | quote }}
+            - name: DB_USER
+              value: {{ .Values.dbuser | quote }}
+            - name: DB_PASS
+              value: {{ .Values.dbpass | quote }}
+          resources:
+            {{- toYaml .Values.resources | nindent 12 }}
+        - name: tls-sidecar
+          image: nginx
+          imagePullPolicy: IfNotPresent
+          volumeMounts:
+            - name: secret-volume
+              mountPath: /app/cert
+            - name: config-volume
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
+      volumes:
+      - name: secret-volume
+        secret:
+          secretName: {{ template "custom-certs.name" . }}-certs
+          items:
+            - key: tls.crt
+              path: shortbread.pem
+            - key: tls.key
+              path: shortbread-key.pem
+      - name: config-volume
+        configMap:
+          name: {{ include "sb.fullname" . }}-nginx
+
